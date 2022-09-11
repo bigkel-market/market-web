@@ -198,7 +198,6 @@ export default {
     }
   },
   components: { CategoryCascader },
-
   methods: {
     init(id) {
       this.dataForm.attrId = id || 0;
@@ -278,7 +277,7 @@ export default {
     //dialogClose
     dialogClose() {
       this.catelogPath = [];
-    },
+    }
   }
 };
 </script>

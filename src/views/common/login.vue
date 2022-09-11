@@ -42,10 +42,10 @@
     data () {
       return {
         dataForm: {
-          userName: '',
-          password: '',
+          userName: 'admin',
+          password: 'admin',
           uuid: '',
-          captcha: ''
+          captcha: 'any'
         },
         dataRule: {
           userName: [
